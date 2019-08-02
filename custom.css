@@ -763,3 +763,32 @@ padding: 30px;
 
 
 }
+
+@media (max-width: 700px) {
+	#logo img {
+		width: 60px;
+		transform: none;
+	}
+
+	#burger {
+		position: absolute;
+		font-size: 36px;
+		color:#fff;
+		top: 12px;
+		left: 150px;
+		z-index: 99;
+		display: block;
+	}
+
+	#shelllogo {
+		position: absolute;
+		top: 18px;
+		right: 0px;
+		z-index: 99;
+		box-shadow: 0px 0px 3px #000;
+	}
+
+	#shelllogo img{
+		width: 80px;
+	}
+}
